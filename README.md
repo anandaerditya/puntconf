@@ -1,5 +1,8 @@
 # PUNTCONF #
 
+![NPM Version](https://img.shields.io/npm/v/%40anandaerditya%2Fpuntconf?style=for-the-badge&logo=npm&color=%23CC3534)
+
+
 
 ### What is PUNTCONF ? ###
 
