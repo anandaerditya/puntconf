@@ -1,0 +1,35 @@
+{
+	"name": "@anandaerditya/puntconf",
+	"version": "1.0.0",
+	"description": "A simple conf config file reader. This package will convert a conf file into a basic JSON object for easy data retrieval.",
+	"keywords": [
+		"puntconf",
+		"dotconf"
+	],
+	"homepage": "https://github.com/anandaerditya/puntconf#readme",
+	"bugs": {
+		"url": "https://github.com/anandaerditya/puntconf/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anandaerditya/puntconf.git"
+	},
+	"license": "MIT",
+	"author": "Ananda Erditya",
+	"type": "commonjs",
+	"main": "index.js",
+	"types": "types/index.d.ts",
+	"scripts": {
+		"build": "tsc && cp package.json dist/",
+		"test:raw": "node --watch -r ts-node/register tests/raw.ts",
+		"test:compiled": "node --watch -r ts-node/register tests/compiled.ts",
+		"test:common": "node tests/natural.js",
+		"publish": "npm publish dist --access public"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.11",
+		"fs": "^0.0.1-security",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	}
+}
